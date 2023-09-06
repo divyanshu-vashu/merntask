@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        form{
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            /* border: 1px solid; */
+            padding: 10px;
+            width: 400px;
+            
+        }
+        label{
+            display: inline-block;
+            width: 120px;
+            margin-right: 30px;
+            text-align:right;
+        }
+        .input{
+            width: 200px; 
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            display:block;
+            /* margin: 10px auto; */
+            margin-left: 38%;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Fullname :</label>
+        <input type="text" placeholder="Full Name" id="fullname" class="input"><br>
+        <label for="Username">Username :</label>
+        <input type="text" placeholder="Username" id="Username" class="input"><br>
+        <label for="Password">Password :</label>
+        <input type="password" placeholder="Password" id="Password" class="input"><br>
+        <label for="Re Password">Re Password : </label>
+        <input type="password" placeholder="Type Password Again" id="Password" class="input"><br>
+        <label for="Address">Address : </label>
+        <input type="text" placeholder="Address" id="Address" class="input"><br>
+        <label for="Age">Age</label>
+        <input type="number" placeholder="Age" id="Age" class="input"><br>
+        <label for="">Gender :</label>
+    <select name="Gender" id="Gender" class="input">
+        <option value="">select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+               
+    </select>
+    
+    </form>
+    <button>Submit</button>
+</body>
+</html>
